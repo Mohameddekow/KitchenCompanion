@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from "react-native-vector-icons/Ionicons";
 
 const AppLogo = () => {
   return (
     <View style={style.logo}>
-      <Icon name="search" size={30} />
+      <Icon name="md-boat" size={30} />
       <Text style={{ marginStart: 10, fontSize: 27, fontWeight: "bold" }}>
         Delecious
       </Text>
