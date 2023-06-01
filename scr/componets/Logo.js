@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
-import IconSearch from "react-native-vector-icons/MaterialIcons";
 import COLORS from "../conts/colors";
 const AppLogo = () => {
   return (
