@@ -5,7 +5,6 @@ import AppLogo from "../../componets/Logo";
 function HomeScreen() {
   return (
     <View>
-      <Text style={{ marginTop: 80 }}>Home Screen</Text>
       <AppLogo />
     </View>
   );
