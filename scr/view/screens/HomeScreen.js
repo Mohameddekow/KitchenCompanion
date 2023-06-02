@@ -1,14 +1,16 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
 import AppLogo from "../../componets/Logo";
 import SearchScreen from "./SearchScreen";
+import RecipesCard from "../../componets/RecipesCard";
 
 function HomeScreen() {
   return (
-    <View>
+    <SafeAreaView>
       <AppLogo />
       <SearchScreen />
-    </View>
+      <RecipesCard />
+    </SafeAreaView>
   );
 }
 

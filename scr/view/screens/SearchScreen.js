@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TextInput } from "react-native";
 import IconSearch from "react-native-vector-icons/MaterialIcons";
 import COLORS from "../../conts/colors";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+
 function SearchScreen() {
   return (
     <View style={style.searchContainer}>
