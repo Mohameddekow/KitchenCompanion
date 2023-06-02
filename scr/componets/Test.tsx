@@ -4,13 +4,11 @@ import COLORS from "../conts/colors";
 import { LinearGradient } from "expo-linear-gradient";
 import { ImagesAssets } from "../../assets/ImagesAssets";
 
-// type GreetingProps = {
-//   name: string,
-// };
+type GreetingProps = {
+  name: string;
+};
 
-const photosDataUrl = "https://jsonplaceholder.typicode.com/photos";
-
-const RecipesCard = (data) => {
+const RecipesCard = () => {
   return (
     <View style={styles.recipesCardContainer}>
       <LinearGradient
@@ -26,11 +24,10 @@ const RecipesCard = (data) => {
         <Image
           style={[styles.recipeImage, { zIndex: -3, position: "absolute" }]}
           source={ImagesAssets.home}
-          // source={data.image}
         />
         <Text
           style={[styles.recpiesText, { zIndex: 3, alignItems: "flex-end" }]}>
-          data title
+          Recpies card
         </Text>
       </LinearGradient>
     </View>
